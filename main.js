@@ -29,7 +29,7 @@ let result= confirm(message);
 let totalCount;
 if(result== true){
     let name= prompt("Please enter your name:");
-    let lastName= prompt("Please entter your last name:");
+    let lastName= prompt("Please enter your last name:");
     
     const customer= new Customer(name,lastName,result,products);
     totalCount=customer.calculate();
